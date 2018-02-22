@@ -1,0 +1,24 @@
+#ifndef SNAKE_H
+#define SNAKE_H
+
+typedef enum
+{
+   ST_INITIALISE,
+   ST_MENU,
+   ST_GAME_START,
+   ST_GAME_RUN,
+   ST_GAME_OVER
+}  state_e
+
+typedef enum
+{
+   E_START_GAME,
+   E_SHUT_DOWN,
+   E_KEY_UP,
+   E_KEY_DOWN,
+   E_KEY_LEFT,
+   E_KEY_RIGHT
+}
+
+
+#endif // SNAKE_H
